@@ -9,16 +9,16 @@ import static org.junit.Assert.*;
 
 public class ArrayHeapMinPQTest {
 
-    @Test
-    public void addAndRemoveMethodsWorkForSimpleHeap() {
-        ArrayHeapMinPQ sand = new ArrayHeapMinPQ();
-        sand.add(1, 0.5);
-        sand.add(2, 1.1);
-        sand.add(3, 2.0);
-        assertEquals(1,sand.removeSmallest());
-        assertEquals(2,sand.removeSmallest());
-        assertEquals(3,sand.removeSmallest());
-    }
+        @Test
+        public void addAndRemoveMethodsWorkForSimpleHeap () {
+            ArrayHeapMinPQ sand = new ArrayHeapMinPQ();
+            sand.add(1, 0.5);
+            sand.add(2, 1.1);
+            sand.add(3, 2.0);
+            assertEquals(1, sand.removeSmallest());
+            assertEquals(2, sand.removeSmallest());
+            assertEquals(3, sand.removeSmallest());
+        }
 
 //        @Test
 //    public void basicTests() {
@@ -111,4 +111,4 @@ public class ArrayHeapMinPQTest {
 //        System.out.println("Total time elapsed for contains-naive: " + cointainsnieve.elapsedTime() +  " seconds.");
 //    }
 
-}
+    }
