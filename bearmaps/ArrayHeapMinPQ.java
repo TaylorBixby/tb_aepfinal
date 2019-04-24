@@ -4,7 +4,7 @@ import java.util.*;
 //import java.junit.
 import edu.princeton.cs.algs4.Heap;
 import edu.princeton.cs.algs4.Stopwatch;
-import edu.princeton.cs.algs4.StdRandom;
+
 
 public class ArrayHeapMinPQ<T> implements ExtrinsicMinPQ<T> {
 

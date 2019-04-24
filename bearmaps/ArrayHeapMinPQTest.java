@@ -3,8 +3,6 @@ package bearmaps;
 import edu.princeton.cs.algs4.Stopwatch;
 import org.junit.Test;
 
-import edu.princeton.cs.introcs.StdRandom;
-
 import java.util.ArrayList;
 
 import static org.junit.Assert.*;
