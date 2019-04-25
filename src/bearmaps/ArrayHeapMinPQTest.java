@@ -9,8 +9,9 @@ import static org.junit.Assert.*;
 
 public class ArrayHeapMinPQTest {
 
+//    1
     @Test
-    public void addAndRemoveMethodsWorkForSimpleHeap () {
+    public void addAndRemoveMethodsWorkForSimpleHeap() {
         ArrayHeapMinPQ sand = new ArrayHeapMinPQ();
         sand.add(1, 0.5);
         sand.add(2, 1.1);
@@ -34,6 +35,7 @@ public class ArrayHeapMinPQTest {
         return one;
     }
 
+//  2
     @Test
     public void getSmallestReturnsSmallestChecksInitialInsertionWorks() {
         ArrayHeapMinPQ one = createOneArray();
@@ -45,7 +47,7 @@ public class ArrayHeapMinPQTest {
 //        System.out.println(one.size());
     }
 
-
+//  3
     @Test
     public void swinAndSinkPrivetMethodsTestedThroughRemovingSmallest() {
         ArrayHeapMinPQ one = createOneArray();
@@ -58,31 +60,41 @@ public class ArrayHeapMinPQTest {
         //size #2 = 7
 //            System.out.println(one.size());
     }
+
+//  4
+    @Test
+    public void changePrioityTest() {
+        ArrayHeapMinPQ one = createOneArray();
+
+        one.changePriority("_5_or_1.5", 1.5);
+        one.removeSmallest();
+        one.removeSmallest();
+        //test for correct change
+        ArrayHeapMinPQ.HeapItem c = one.getSmallestNode();
+//            System.out.println(c.showName() + " " + c.showpri());
+        assertEquals(1.5, c.showpri(), .001);
+        assertEquals("_5_or_1.5", c.showName());
+        assertEquals(6, one.size());
+
+    }
+//
+////  5
 //    @Test
-//    public void basicTests() {
-//          ArrayHeapMinPQ one = createOneArray();
-//        //changeprioity
-//        one.changePriority("_5_or_1.5", 1.5);
-//        one.removeSmallest();
-//            //test for correct change
-//            ArrayHeapMinPQ.HeapItem c = one.getSmallestNode();
-////            System.out.println(c.showName() + " " + c.showpri());
-//            assertEquals(1.5, c.showpri(),.001);
-//            assertEquals("_5_or_1.5", c.showName());
-//            //size #3 = 6
-////            System.out.println(one.size());
-//        //contains
+//    public void containsTest() {
+//        ArrayHeapMinPQ one = createOneArray();
 //        assertTrue(one.contains("_2.5"));
+//        one.removeSmallest();
 //        assertFalse(one.contains("_.5"));
-////        System.out.println(" ______________________________");
 ////        one.printHeap();
 //    }
-//    longer for loop tests with seed setpoints
-//    long a = setSeed(long s);
-//    Sets the seed of the pseudo-random number generator.
-
+//
+////    longer for loop tests with seed setpoints
+////    long a = setSeed(long s);
+////    Sets the seed of the pseudo-random number generator.
+//
+////    10
 //    @Test
-//    public void speedTest() {
+//    public void speedTestContainsRuntimeEfficent() {
 //    //contains works
 //    //to check: change priority
 //        //create my heap
@@ -125,4 +137,4 @@ public class ArrayHeapMinPQTest {
 //        System.out.println("Total time elapsed for contains-naive: " + cointainsnieve.elapsedTime() +  " seconds.");
 //    }
 
-    }
+}

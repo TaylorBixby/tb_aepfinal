@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ce747c4-0a7b-49ef-9d6f-938ca712ea98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/bearmaps/ArrayHeapMinPQTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tb_aepfinal/bearmaps/ArrayHeapMinPQTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bearmaps/ArrayHeapMinPQTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bearmaps/ArrayHeapMinPQTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,8 +16,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bearmaps/ArrayHeapMinPQTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+            <state relative-caret-position="197">
+              <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bearmaps/ArrayHeapMinPQ.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1343">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -39,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bearmaps/ExtrinsicMinPQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="-34">
+              <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -96,7 +103,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556222481481" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556225965754" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -110,8 +117,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayHeapMinPQTest.swinAndSinkPrivetMethodsTestedThroughRemovingSmallest">
-    <configuration name="ArrayHeapMinPQTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArrayHeapMinPQTest.changePrioityTest">
+    <configuration name="ArrayHeapMinPQTest.changePrioityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tb_aepfinal" />
       <extension name="coverage">
         <pattern>
@@ -121,28 +128,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="bearmaps" />
       <option name="MAIN_CLASS_NAME" value="bearmaps.ArrayHeapMinPQTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayHeapMinPQTest.basicTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tb_aepfinal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bearmaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bearmaps" />
-      <option name="MAIN_CLASS_NAME" value="bearmaps.ArrayHeapMinPQTest" />
-      <option name="METHOD_NAME" value="basicTests" />
+      <option name="METHOD_NAME" value="changePrioityTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayHeapMinPQTest.getSmallest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayHeapMinPQTest.containsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tb_aepfinal" />
       <extension name="coverage">
         <pattern>
@@ -152,7 +144,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="bearmaps" />
       <option name="MAIN_CLASS_NAME" value="bearmaps.ArrayHeapMinPQTest" />
-      <option name="METHOD_NAME" value="getSmallest" />
+      <option name="METHOD_NAME" value="containsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,6 +161,22 @@
       <option name="PACKAGE_NAME" value="bearmaps" />
       <option name="MAIN_CLASS_NAME" value="bearmaps.ArrayHeapMinPQTest" />
       <option name="METHOD_NAME" value="getSmallestReturnsSmallest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayHeapMinPQTest.speedTestContainsRuntimeEfficent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tb_aepfinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bearmaps" />
+      <option name="MAIN_CLASS_NAME" value="bearmaps.ArrayHeapMinPQTest" />
+      <option name="METHOD_NAME" value="speedTestContainsRuntimeEfficent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -192,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayHeapMinPQTest.changePrioityTest" />
+        <item itemvalue="JUnit.ArrayHeapMinPQTest.speedTestContainsRuntimeEfficent" />
+        <item itemvalue="JUnit.ArrayHeapMinPQTest.containsTest" />
         <item itemvalue="JUnit.ArrayHeapMinPQTest.swinAndSinkPrivetMethodsTestedThroughRemovingSmallest" />
         <item itemvalue="JUnit.ArrayHeapMinPQTest.getSmallestReturnsSmallest" />
-        <item itemvalue="JUnit.ArrayHeapMinPQTest.basicTests" />
-        <item itemvalue="JUnit.ArrayHeapMinPQTest.getSmallest" />
-        <item itemvalue="JUnit.ArrayHeapMinPQTest" />
       </list>
     </recent_temporary>
   </component>
@@ -214,18 +222,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayHeapMinPQTest - 2019.04.25 at 11h 11m 13s.xml">
-      <configuration name="ArrayHeapMinPQTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayHeapMinPQTest_basicTests - 2019.04.25 at 12h 42m 26s.xml">
-      <configuration name="ArrayHeapMinPQTest.basicTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayHeapMinPQTest_getSmallest - 2019.04.25 at 12h 50m 04s.xml">
-      <configuration name="ArrayHeapMinPQTest.getSmallest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayHeapMinPQTest_basicTests - 2019.04.25 at 12h 51m 38s.xml">
-      <configuration name="ArrayHeapMinPQTest.basicTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ArrayHeapMinPQTest_getSmallestReturnsSmallest - 2019.04.25 at 12h 52m 44s.xml">
       <configuration name="ArrayHeapMinPQTest.getSmallestReturnsSmallest" configurationId="JUnit" />
     </history-entry>
@@ -237,6 +233,24 @@
     </history-entry>
     <history-entry file="ArrayHeapMinPQTest_swinAndSinkPrivetMethodsTestedThroughRemovingSmallest - 2019.04.25 at 12h 59m 48s.xml">
       <configuration name="ArrayHeapMinPQTest.swinAndSinkPrivetMethodsTestedThroughRemovingSmallest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayHeapMinPQTest_changePrioityTest - 2019.04.25 at 13h 08m 53s.xml">
+      <configuration name="ArrayHeapMinPQTest.changePrioityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayHeapMinPQTest_changePrioityTest - 2019.04.25 at 13h 10m 57s.xml">
+      <configuration name="ArrayHeapMinPQTest.changePrioityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayHeapMinPQTest_containsTest - 2019.04.25 at 13h 27m 55s.xml">
+      <configuration name="ArrayHeapMinPQTest.containsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayHeapMinPQTest_containsTest - 2019.04.25 at 13h 28m 59s.xml">
+      <configuration name="ArrayHeapMinPQTest.containsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayHeapMinPQTest_speedTestContainsRuntimeEfficent - 2019.04.25 at 13h 53m 55s.xml">
+      <configuration name="ArrayHeapMinPQTest.speedTestContainsRuntimeEfficent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayHeapMinPQTest_changePrioityTest - 2019.04.25 at 13h 59m 16s.xml">
+      <configuration name="ArrayHeapMinPQTest.changePrioityTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -253,7 +267,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32851985" />
+      <window_info anchor="bottom" id="Messages" weight="0.3268206" />
       <window_info anchor="bottom" id="Style Checker" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -273,13 +287,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bearmaps/ExtrinsicMinPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bearmaps/NaiveMinPQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -290,10 +297,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bearmaps/ArrayHeapMinPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1343">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bearmaps/ExtrinsicMinPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bearmaps/ArrayHeapMinPQTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        <state relative-caret-position="197">
+          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
         </state>
       </provider>
     </entry>
