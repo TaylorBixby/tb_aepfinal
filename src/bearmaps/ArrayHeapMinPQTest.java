@@ -77,21 +77,21 @@ public class ArrayHeapMinPQTest {
         assertEquals(6, one.size());
 
     }
-//
+
 ////  5
-//    @Test
-//    public void containsTest() {
-//        ArrayHeapMinPQ one = createOneArray();
-//        assertTrue(one.contains("_2.5"));
-//        one.removeSmallest();
-//        assertFalse(one.contains("_.5"));
-////        one.printHeap();
-//    }
-//
-////    longer for loop tests with seed setpoints
-////    long a = setSeed(long s);
-////    Sets the seed of the pseudo-random number generator.
-//
+    @Test
+    public void containsTest() {
+        ArrayHeapMinPQ one = createOneArray();
+        assertTrue(one.contains("_2.5"));
+        one.removeSmallest();
+        assertFalse(one.contains("_.5"));
+//        one.printHeap();
+    }
+
+//    longer for loop tests with seed setpoints
+//    long a = setSeed(long s);
+//    Sets the seed of the pseudo-random number generator.
+
 ////    10
 //    @Test
 //    public void speedTestContainsRuntimeEfficent() {
