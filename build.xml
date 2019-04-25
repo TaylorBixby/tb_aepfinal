@@ -1,6 +1,6 @@
 <project name="aep19">
     <property name="main.build.dir" value="build/main"/>
-    <property name="main.src.dir" value="bearmaps"/>
+    <property name="main.src.dir" value="src"/>
 
     <path id="classpath.test">
         <pathelement location="lib/junit-4.13-beta-2.jar"/>
