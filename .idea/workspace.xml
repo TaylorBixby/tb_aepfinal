@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="212eeea6-96c3-4aa7-aebd-42701de5c055" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+    <list default="true" id="2ce747c4-0a7b-49ef-9d6f-938ca712ea98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/.circleci/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/lib/algs4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/lib/junit-4.13-beta-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/proj2ab.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/src/bearmaps/ArrayHeapMinPQ$HeapItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/src/bearmaps/ArrayHeapMinPQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/src/bearmaps/ArrayHeapMinPQTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/src/bearmaps/ExtrinsicMinPQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/src/bearmaps/NaiveMinPQ$PriorityNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/src/bearmaps/NaiveMinPQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/src/bearmaps/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/src/bearmaps/PointSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/src/bearmaps/PrintHeapDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/src/bearmaps/StdRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/src/bearmaps/TimingTestDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tb_aepfinal/tb_aepfinal.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bearmaps/ArrayHeapMinPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bearmaps/ArrayHeapMinPQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bearmaps/ArrayHeapMinPQTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bearmaps/ArrayHeapMinPQTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bearmaps/ExtrinsicMinPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bearmaps/ExtrinsicMinPQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bearmaps/NaiveMinPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bearmaps/NaiveMinPQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bearmaps/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bearmaps/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bearmaps/PointSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bearmaps/PointSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bearmaps/PrintHeapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bearmaps/PrintHeapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bearmaps/StdRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bearmaps/StdRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bearmaps/TimingTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bearmaps/TimingTestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tb_aepfinal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tb_aepfinal.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,84 +45,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bearmaps/ArrayHeapMinPQ.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bearmaps/ExtrinsicMinPQ.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bearmaps/TimingTestDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bearmaps/StdRandom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bearmaps/PrintHeapDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bearmaps/PointSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bearmaps/Point.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bearmaps/ArrayHeapMinPQTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+            <state relative-caret-position="68">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -97,23 +58,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bearmaps/NaiveMinPQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="174">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bearmaps/ExtrinsicMinPQ.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>algs4</find>
-      <find>algs</find>
-      <find>lf</find>
-      <find>nextDouble</find>
-      <find>uniform</find>
-      <find>chang</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -121,24 +84,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bearmaps/ArrayHeapMinPQ.java" />
-        <option value="$PROJECT_DIR$/bearmaps/StdOut.java" />
-        <option value="$PROJECT_DIR$/bearmaps/StdRandom.java" />
-        <option value="$PROJECT_DIR$/bearmaps/ArrayHeapMinPQTest.java" />
-        <option value="$PROJECT_DIR$/src/bearmaps/ArrayHeapMinPQTest.java" />
-        <option value="$PROJECT_DIR$/src/bearmaps/ArrayHeapMinPQ.java" />
-        <option value="$PROJECT_DIR$/src/bearmaps/ExtrinsicMinPQ.java" />
-        <option value="$PROJECT_DIR$/src/bearmaps/TimingTestDemo.java" />
-        <option value="$PROJECT_DIR$/src/bearmaps/StdRandom.java" />
-        <option value="$PROJECT_DIR$/src/bearmaps/PrintHeapDemo.java" />
-        <option value="$PROJECT_DIR$/src/bearmaps/PointSet.java" />
-        <option value="$PROJECT_DIR$/src/bearmaps/Point.java" />
         <option value="$PROJECT_DIR$/src/bearmaps/NaiveMinPQ.java" />
-        <option value="$PROJECT_DIR$/build.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="width" value="3200" />
     <option name="height" value="1710" />
   </component>
@@ -147,8 +97,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,14 +104,27 @@
               <item name="tb_aepfinal" type="b2602c69:ProjectViewProjectNode" />
               <item name="tb_aepfinal" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tb_aepfinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tb_aepfinal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tb_aepfinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tb_aepfinal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bearmaps" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556172509081" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556215863218" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,22 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayHeapMinPQTest (1)">
-    <configuration name="ArrayHeapMinPQTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tb_aepfinal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.bearmaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src.bearmaps" />
-      <option name="MAIN_CLASS_NAME" value="src.bearmaps.ArrayHeapMinPQTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="ArrayHeapMinPQTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tb_aepfinal" />
       <extension name="coverage">
@@ -203,65 +149,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="bearmaps" />
       <option name="MAIN_CLASS_NAME" value="bearmaps.ArrayHeapMinPQTest" />
-      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayHeapMinPQTest.addAndRemoveMethodsWorkForSimpleHeap (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bearmaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="bearmaps.ArrayHeapMinPQTest" />
-      <option name="METHOD_NAME" value="addAndRemoveMethodsWorkForSimpleHeap" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayHeapMinPQTest.addAndRemoveMethodsWorkForSimpleHeap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tb_aepfinal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bearmaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bearmaps" />
-      <option name="MAIN_CLASS_NAME" value="bearmaps.ArrayHeapMinPQTest" />
-      <option name="METHOD_NAME" value="addAndRemoveMethodsWorkForSimpleHeap" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="build.main in tb_aepfinal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tb_aepfinal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="build.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="build.main" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArrayHeapMinPQTest (1)" />
         <item itemvalue="JUnit.ArrayHeapMinPQTest" />
-        <item itemvalue="JUnit.build.main in tb_aepfinal" />
-        <item itemvalue="JUnit.ArrayHeapMinPQTest.addAndRemoveMethodsWorkForSimpleHeap (1)" />
-        <item itemvalue="JUnit.ArrayHeapMinPQTest.addAndRemoveMethodsWorkForSimpleHeap" />
       </list>
     </recent_temporary>
   </component>
@@ -270,222 +165,69 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="212eeea6-96c3-4aa7-aebd-42701de5c055" name="Default Changelist" comment="" />
-      <created>1555974787253</created>
+      <changelist id="2ce747c4-0a7b-49ef-9d6f-938ca712ea98" name="Default Changelist" comment="" />
+      <created>1556215531989</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1555974787253</updated>
+      <updated>1556215531989</updated>
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="ArrayHeapMinPQTest_sandBoxTests - 2019.04.24 at 14h 57m 20s.xml">
-      <configuration name="ArrayHeapMinPQTest.sandBoxTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayHeapMinPQTest_sandBoxTests - 2019.04.24 at 14h 57m 42s.xml">
-      <configuration name="ArrayHeapMinPQTest.sandBoxTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayHeapMinPQTest_sandBoxTests - 2019.04.24 at 14h 58m 19s.xml">
-      <configuration name="ArrayHeapMinPQTest.sandBoxTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayHeapMinPQTest_addAndRemoveMethodsWorkForSimpleHeap - 2019.04.24 at 14h 59m 38s.xml">
-      <configuration name="ArrayHeapMinPQTest.addAndRemoveMethodsWorkForSimpleHeap" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayHeapMinPQTest_addAndRemoveMethodsWorkForSimpleHeap - 2019.04.24 at 15h 00m 17s.xml">
-      <configuration name="ArrayHeapMinPQTest.addAndRemoveMethodsWorkForSimpleHeap" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayHeapMinPQTest - 2019.04.24 at 15h 18m 34s.xml">
-      <configuration name="ArrayHeapMinPQTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayHeapMinPQTest - 2019.04.24 at 15h 33m 41s.xml">
-      <configuration name="ArrayHeapMinPQTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="build_main_in_tb_aepfinal - 2019.04.24 at 15h 36m 15s.xml">
-      <configuration name="build.main in tb_aepfinal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayHeapMinPQTest - 2019.04.24 at 15h 54m 35s.xml">
-      <configuration name="ArrayHeapMinPQTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayHeapMinPQTest_(1) - 2019.04.24 at 23h 06m 36s.xml">
-      <configuration name="ArrayHeapMinPQTest (1)" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="684" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25910932" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32851985" />
+      <window_info anchor="bottom" id="Style Checker" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35523978" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Style Checker" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/StdRandom.java" />
-    <entry file="file://$PROJECT_DIR$/bearmaps/KDTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bearmaps/ExtrinsicMinPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bearmaps/StdOut.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1088" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bearmaps/StdRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="257" column="64" selection-start-line="257" selection-start-column="57" selection-end-line="257" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bearmaps/ArrayHeapMinPQTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bearmaps/ArrayHeapMinPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2788">
-          <caret line="171" column="23" selection-start-line="171" selection-start-column="15" selection-end-line="171" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj2ab.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tb_aepfinal.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/tb_aepfinal/bearmaps/ArrayHeapMinPQTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bearmaps/ArrayHeapMinPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bearmaps/KDTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bearmaps/TimingTestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bearmaps/StdRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bearmaps/PrintHeapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bearmaps/PointSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bearmaps/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bearmaps/ExtrinsicMinPQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="221">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bearmaps/NaiveMinPQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="174">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bearmaps/ArrayHeapMinPQTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>

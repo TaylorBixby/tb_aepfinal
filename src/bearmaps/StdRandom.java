@@ -1,4 +1,4 @@
-package src.bearmaps;
+package bearmaps;
 
 /******************************************************************************
  *  Compilation:  javac StdRandom.java

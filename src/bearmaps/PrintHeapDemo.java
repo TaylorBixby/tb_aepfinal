@@ -1,4 +1,4 @@
-package src.bearmaps;
+package bearmaps;
 
 /**
  * Created by hug.

@@ -1,4 +1,4 @@
-package src.bearmaps;
+package bearmaps;
 
 import java.util.ArrayList;
 import java.util.Collections;
