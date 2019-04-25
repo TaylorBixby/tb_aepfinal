@@ -35,7 +35,7 @@ public class ArrayHeapMinPQTest {
     }
 
     @Test
-    public void getSmallestReturnsSmallest() {
+    public void getSmallestReturnsSmallestChecksInitialInsertionWorks() {
         ArrayHeapMinPQ one = createOneArray();
         ArrayHeapMinPQ.HeapItem a = one.getSmallestNode();
 //        System.out.println(a.showName() + " " + a.showpri());
@@ -45,19 +45,22 @@ public class ArrayHeapMinPQTest {
 //        System.out.println(one.size());
     }
 
-//
+
+    @Test
+    public void swinAndSinkPrivetMethodsTestedThroughRemovingSmallest() {
+        ArrayHeapMinPQ one = createOneArray();
+        one.removeSmallest();
+        //test for correct change
+        ArrayHeapMinPQ.HeapItem b = one.getSmallestNode();
+//            System.out.println(b.showName() + " " + b.showpri());
+        assertEquals(1.1, b.showpri(), .001);
+        assertEquals("_1.1", b.showName());
+        //size #2 = 7
+//            System.out.println(one.size());
+    }
 //    @Test
 //    public void basicTests() {
-//        ArrayHeapMinPQ one = createOneArray();
-//        //remove smallest
-//        one.removeSmallest();
-//            //test for correct change
-//            ArrayHeapMinPQ.HeapItem b = one.getSmallestNode();
-////            System.out.println(b.showName() + " " + b.showpri());
-//            assertEquals(1.1, b.showpri(),.001);
-//            assertEquals("_1.1", b.showName());
-//            //size #2 = 7
-////            System.out.println(one.size());
+//          ArrayHeapMinPQ one = createOneArray();
 //        //changeprioity
 //        one.changePriority("_5_or_1.5", 1.5);
 //        one.removeSmallest();
