@@ -33,11 +33,11 @@ public class ArrayHeapMinPQTest<T> {
     }
 
 //  9
-//    @Test(expected = java.util.NoSuchElementException.class)
-//    public void removeFromEmtpyArrayThrowsCorrectError () {
-//        ArrayHeapMinPQ emptyarray = new ArrayHeapMinPQ();
-//        emptyarray.removeSmallest();
-//    }
+    @Test(expected = java.util.NoSuchElementException.class)
+    public void removeFromEmtpyArrayThrowsCorrectError () {
+        ArrayHeapMinPQ emptyarray = new ArrayHeapMinPQ();
+        emptyarray.removeSmallest();
+    }
 
     //  6
     @Test
