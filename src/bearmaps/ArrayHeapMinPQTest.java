@@ -132,49 +132,49 @@ public class ArrayHeapMinPQTest<T> {
 //    long a = setSeed(long s);
 //    Sets the seed of the pseudo-random number generator.
 
-////    10
-//    @Test
-//    public void speedTestContainsRuntimeEfficent() {
-//    //contains works
-//    //to check: change priority
-//        //create my heap
-//        Stopwatch addmine = new Stopwatch();
-//        ArrayHeapMinPQ mine = new ArrayHeapMinPQ();
-//        for (int i = 0; i < 20000; i += 1) {
-//            mine.add(i, StdRandom.uniform(0.0,10000000.0));
-//        }
-//        System.out.println("Total time elapsed for add-mine: " + addmine.elapsedTime() +  " seconds.");
-//
-//        //create neive heap
-//        Stopwatch addnieve = new Stopwatch();
-//        NaiveMinPQ nieve = new NaiveMinPQ();
-//        for (int i = 0; i < 20000; i += 1) {
-//            nieve.add(i, StdRandom.uniform(0.0,10000000.0));
-//        }
-//        System.out.println("Total time elapsed for add-naive: " + addnieve.elapsedTime() +  " seconds.");
-//
-//        //creating new priorities
-//        ArrayList newpriotiy = new ArrayList(11000);
-//        for (int i = 0; i < 10000; i += 1) {
-//            double x =  StdRandom.uniform(0.0,10000000.0);
-//            newpriotiy.add(i, x);
-//        }
-//
-//        Stopwatch containsmine = new Stopwatch();
-//        for (int i = 0; i < 10000; i += 1) {
-//            int x =  StdRandom.uniform(0,19000);
-//            double newpior = (double) newpriotiy.get(i);
-//            mine.changePriority(x, newpior);
-//        }
-//        System.out.println("Total time elapsed for contains-mine: " + containsmine.elapsedTime() +  " seconds.");
-//
-//        Stopwatch cointainsnieve = new Stopwatch();
-//        for (int i = 0; i < 10000; i += 1) {
-//            int x =  StdRandom.uniform(0,19000);
-//            double newpior = (double) newpriotiy.get(i);
-//            nieve.changePriority(x, newpior);
-//        }
-//        System.out.println("Total time elapsed for contains-naive: " + cointainsnieve.elapsedTime() +  " seconds.");
-//    }
+//  10
+    @Test
+    public void speedTestContainsRuntimeEfficent() {
+    //contains works
+    //to check: change priority
+        //create my heap
+        Stopwatch addmine = new Stopwatch();
+        ArrayHeapMinPQ mine = new ArrayHeapMinPQ();
+        for (int i = 0; i < 20000; i += 1) {
+            mine.add(i, StdRandom.uniform(0.0,10000000.0));
+        }
+        System.out.println("Total time elapsed for add-mine: " + addmine.elapsedTime() +  " seconds.");
+
+        //create neive heap
+        Stopwatch addnieve = new Stopwatch();
+        NaiveMinPQ nieve = new NaiveMinPQ();
+        for (int i = 0; i < 20000; i += 1) {
+            nieve.add(i, StdRandom.uniform(0.0,10000000.0));
+        }
+        System.out.println("Total time elapsed for add-naive: " + addnieve.elapsedTime() +  " seconds.");
+
+        //creating new priorities
+        ArrayList newpriotiy = new ArrayList(11000);
+        for (int i = 0; i < 10000; i += 1) {
+            double x =  StdRandom.uniform(0.0,10000000.0);
+            newpriotiy.add(i, x);
+        }
+
+        Stopwatch containsmine = new Stopwatch();
+        for (int i = 0; i < 10000; i += 1) {
+            int x =  StdRandom.uniform(0,19000);
+            double newpior = (double) newpriotiy.get(i);
+            mine.changePriority(x, newpior);
+        }
+        System.out.println("Total time elapsed for contains-mine: " + containsmine.elapsedTime() +  " seconds.");
+
+        Stopwatch cointainsnieve = new Stopwatch();
+        for (int i = 0; i < 10000; i += 1) {
+            int x =  StdRandom.uniform(0,19000);
+            double newpior = (double) newpriotiy.get(i);
+            nieve.changePriority(x, newpior);
+        }
+        System.out.println("Total time elapsed for contains-naive: " + cointainsnieve.elapsedTime() +  " seconds.");
+    }
 
 }
