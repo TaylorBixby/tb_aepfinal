@@ -63,18 +63,18 @@ public class ArrayHeapMinPQTest<T> {
         return one;
     }
 
-////  8
-//    @Test
-//    public void addingSameHeapItemNameWithDifferentValueIsValid() {
-//        ArrayHeapMinPQ one = createOneArray();
-//        one.add("second.5", .5);
-//        T a = (T) one.removeSmallest();
-////        System.out.println(a);
-//        assertEquals("_.5", a);
-//        T b = (T) one.removeSmallest();
-////        System.out.println(b);
-//        assertEquals("second.5", b);
-//    }
+//  8
+    @Test
+    public void addingSameHeapItemNameWithDifferentValueIsValid() {
+        ArrayHeapMinPQ one = createOneArray();
+        one.add("second.5", .5);
+        T a = (T) one.removeSmallest();
+//        System.out.println(a);
+        assertEquals("_.5", a);
+        T b = (T) one.removeSmallest();
+//        System.out.println(b);
+        assertEquals("second.5", b);
+    }
 
 //  2
     @Test
