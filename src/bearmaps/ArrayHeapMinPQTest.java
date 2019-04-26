@@ -21,16 +21,16 @@ public class ArrayHeapMinPQTest<T> {
         assertEquals(3, sand.removeSmallest());
     }
 
-////  7
-//    @Test
-//    public void testBothMethodsOfGet() {
-//        ArrayHeapMinPQ sand = new ArrayHeapMinPQ();
-//        sand.add(1, 0.5);
-//        sand.add(2, 1.1);
-//        sand.add(3, 2.0);
-//        assertEquals(1, sand.getSmallestNode().name);
-//        assertEquals(1, sand.getSmallest());
-//    }
+//  7
+    @Test
+    public void testBothMethodsOfGet() {
+        ArrayHeapMinPQ sand = new ArrayHeapMinPQ();
+        sand.add(1, 0.5);
+        sand.add(2, 1.1);
+        sand.add(3, 2.0);
+        assertEquals(1, sand.getSmallestNode().name);
+        assertEquals(1, sand.getSmallest());
+    }
 
 //  9
 //    @Test(expected = java.util.NoSuchElementException.class)
