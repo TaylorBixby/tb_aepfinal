@@ -7,11 +7,11 @@ import java.util.ArrayList;
 
 import static org.junit.Assert.*;
 
-public class ArrayHeapMinPQTest {
+public class ArrayHeapMinPQTest<T> {
 
 //    1
     @Test
-    public void addAndRemoveMethodsWorkForSimpleHeap() {
+    public void removeMethodsWorkForSimpleHeap() {
         ArrayHeapMinPQ sand = new ArrayHeapMinPQ();
         sand.add(1, 0.5);
         sand.add(2, 1.1);
@@ -19,6 +19,34 @@ public class ArrayHeapMinPQTest {
         assertEquals(1, sand.removeSmallest());
         assertEquals(2, sand.removeSmallest());
         assertEquals(3, sand.removeSmallest());
+    }
+
+////  7
+//    @Test
+//    public void testBothMethodsOfGet() {
+//        ArrayHeapMinPQ sand = new ArrayHeapMinPQ();
+//        sand.add(1, 0.5);
+//        sand.add(2, 1.1);
+//        sand.add(3, 2.0);
+//        assertEquals(1, sand.getSmallestNode().name);
+//        assertEquals(1, sand.getSmallest());
+//    }
+
+//  9
+//    @Test(expected = java.util.NoSuchElementException.class)
+//    public void removeFromEmtpyArrayThrowsCorrectError () {
+//        ArrayHeapMinPQ emptyarray = new ArrayHeapMinPQ();
+//        emptyarray.removeSmallest();
+//    }
+
+    //  6
+    @Test
+    public void printHeap() {
+        ArrayHeapMinPQ sand = new ArrayHeapMinPQ();
+        sand.add(1, 0.5);
+        sand.add(2, 1.1);
+        sand.add(3, 2.0);
+        sand.printHeap();
     }
 
     private ArrayHeapMinPQ createOneArray() {
@@ -34,6 +62,19 @@ public class ArrayHeapMinPQTest {
 
         return one;
     }
+
+////  8
+//    @Test
+//    public void addingSameHeapItemNameWithDifferentValueIsValid() {
+//        ArrayHeapMinPQ one = createOneArray();
+//        one.add("second.5", .5);
+//        T a = (T) one.removeSmallest();
+////        System.out.println(a);
+//        assertEquals("_.5", a);
+//        T b = (T) one.removeSmallest();
+////        System.out.println(b);
+//        assertEquals("second.5", b);
+//    }
 
 //  2
     @Test
@@ -71,14 +112,13 @@ public class ArrayHeapMinPQTest {
         one.removeSmallest();
         //test for correct change
         ArrayHeapMinPQ.HeapItem c = one.getSmallestNode();
-//            System.out.println(c.showName() + " " + c.showpri());
+//      System.out.println(c.showName() + " " + c.showpri());
         assertEquals(1.5, c.showpri(), .001);
         assertEquals("_5_or_1.5", c.showName());
         assertEquals(6, one.size());
-
     }
 
-////  5
+//  5
     @Test
     public void containsTest() {
         ArrayHeapMinPQ one = createOneArray();
